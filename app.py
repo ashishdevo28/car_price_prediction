@@ -1,6 +1,6 @@
 import streamlit as st
 import pickle
-model = pickle.load(open('random_forest_regression_model.pkl','rb'))
+model = pickle.load(open('RF_price_predicting_model.pkl','rb'))
 
 
 def main():
