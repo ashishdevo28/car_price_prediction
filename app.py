@@ -18,7 +18,7 @@ def main():
     years = st.number_input('In which year car was purchased?',1990,2021, step=1, key = 'year')
     Years_old = 2021-years
 
-    Present_Price = st.number_input('What is the current on-road price of the car? (In ₹lakhs)', 0.00, 50.00, step=0.5, key ='present_price') 
+    Present_Price = st.number_input('What is the current on-road price of the car in 2021? (In ₹lakhs)', 0.00, 50.00, step=0.5, key ='present_price') 
 
     Kms_Driven = st.number_input("How much car has covered distance?",0.00, 500000.00, step = 500.00, key='drived')
 
