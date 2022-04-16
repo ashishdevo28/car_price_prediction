@@ -14,3 +14,10 @@ Here we have deoployed a simple app on the Heroku, just to learn the deoployment
 6. The file which is most important here is `Procfile`. It is the file Heroku knowas as the process file. It is the file which tells the Heroku what to do with the app. 
 7. Finally this part is done. Now we have to deploy the app on the cloud.
 8. Just make Heroku account and follow the steps there.
+
+
+## Editings
+1. We have removed the `pickle` file from repository. But you can add your own here
+
+## Contibutions
+If you have any contibutions to this project, please feel free to add it here.
